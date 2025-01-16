@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Mine",
+            "database": "Demo",
+            "username": "postgres",
+            "password": "Mine@123456789"
+        }
+    ],
+    "liveServer.settings.port": 5501
+}

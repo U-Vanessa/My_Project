@@ -1,0 +1,144 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/free-photo/men-women-help-each-other-collect-garbage_1150-23932.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header-top {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #67cf11bd;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    
+}
+
+.header-main nav{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: rgba(12, 12, 12, 0);
+}
+.header-main nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.header-main nav ul li {
+    float: left;
+    padding: 4px;
+    margin: 4px;
+}
+.header-main nav ul li a{
+    color: white;
+}
+
+.header-main nav ul li a:hover {
+    background-color: #111;
+}
+
+.header-main button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero {
+    background: rgba(0, 0, 0, 0.5);
+    color: #8ab167e8;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #00ff00;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services, .about{
+    padding: 20px 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.services h2, .about h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00ff00;
+}
+
+.service{
+    background-color: #40911fd0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(218, 211, 15, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
+    margin: 10px;
+    gap: 10px;
+    display: inline-block;
+}
+.service img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+about{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    justify-content: center;
+    background: #00ff00;
+}
+about h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d7d4d4;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}

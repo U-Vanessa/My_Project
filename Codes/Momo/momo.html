@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="momo.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EC9coM9+T7MPhzchb0ojmBddXlPVZX5nY/W71rtyJ1usKXwntvMA5GCrf6ccfF2U"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <div class="container">
+      <div>
+        <a href="index.html"
+          ><ion-icon name="arrow-back-circle-outline"></ion-icon
+        ></a>
+      </div>
+      <div class="green-side">
+        <h2>Hello, Friend! 👋</h2>
+        <h3>Welcome to Eco-Clean Solutions</h3>
+        <p>
+          Register with your personal details to use all of the site's features
+        </p>
+      </div>
+      <div class="white-side">
+        <h2>REGISTRATION FORM</h2>
+        <form action="register.html" method="post">
+
+          <div class="form-group row">
+            <label for="firstname" class="col-sm-4 col-form-label">First Name</label>
+            <input type="text" id="firstname" class="form-control">
+          </div>
+
+          <div class="form-group row">
+            <label for="lastname" class="col-sm-4 col-form-label">Last Name</label>
+              <input type="text" id="lastname" class="form-control">
+          </div>
+
+          <div class="form-group row">
+            <label for="email" class="col-sm-4 col-form-label">Email</label>
+            <input type="email" id="email" class="form-control">
+          </div>
+
+          <div class="form-group row">
+            <label for="district" class="col-sm-4 col-form-label">District</label>
+            <input type="text" id="district" class="form-control">
+          </div>
+
+          <div class="form-group row">
+            <label for="sector" class="col-sm-4 col-form-label">Sector</label>
+            <input type="text" id="sector" class="form-control">
+          </div>
+
+          <div class="form-group row">
+            <label for="street" class="col-sm-4 col-form-label">Street</label>
+            <input type="text" id="street" class="form-control">
+          </div>
+
+          <div class="form-group row">
+            <label for="password" class="col-sm-4 col-form-label">Password</label>
+              <input type="password" id="password" class="form-control">
+          </div>
+
+          <div class="form-group row">
+            <label for="confirm_password" class="col-sm-4 col-form-label">Confirm Password</label>
+              <input type="password" id="confirm_password" class="form-control">
+          </div>
+
+          <div class="form-group row">
+              <button type="submit" class="submit btn btn-primary mt-3">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

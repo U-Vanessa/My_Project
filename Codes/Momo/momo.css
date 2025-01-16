@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  background: #327635;
+  margin: 0;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --FONT-HEADER: 'Poppins', sans-serif;
+  --FONT-BASIC: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-block: auto;
+  margin-inline: auto;
+  max-width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.text-danger {
+  color: rgb(219, 35, 35);
+  font-size: 14px;
+}
+
+label {
+  font-weight: bold;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px 10px;
+  flex-direction: column;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+}
+.green-side,
+.white-side {
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.green-side {
+  background-color: #4caf50;
+  color: white;
+}
+
+.green-side p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: var(--FONT-BASIC);
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.green-side h2 {
+  font-size: 2rem;
+}
+
+.white-side {
+  background-color: white;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.invalid-feedback {
+  display: block !important;
+}
+
+h2 {
+  margin: 0 0 20px;
+  font-family: var(--FONT-HEADER);
+}
+
+.submit {
+  background-color: #4caf50;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 750px) {
+  .container {
+    flex-wrap: nowrap;
+  }
+}
+
+
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+body {
+  font-family: var(--FONT-BASIC);
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+:root {
+  --FONT-HEADER: 'Poppins', sans-serif;
+  --FONT-BASIC: 'Roboto', sans-serif;
+  --GREEN: #4caf50;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+h2 {
+  font-family: var(--FONT-HEADER);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-family: var(--FONT-BASIC);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  font-size: 1rem;
+}
+
+.submit {
+  background-color: var(--GREEN);
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+.text-danger {
+  color: rgb(219, 35, 35);
+  font-size: 14px;
+  margin-top: 5px;
+  display: none; /* This will show error messages when needed 
+}
+
+@media (min-width: 750px) {
+  .container {
+    flex-wrap: nowrap;
+  }
+}
+*/

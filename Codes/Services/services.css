@@ -1,0 +1,100 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: whitesmoke;
+    background: url('https://img.freepik.com/free-photo/recycle-logo-black-plaster-background_23-2148115580.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1718150400&semt=ais_user') no-repeat center center/cover;
+}
+
+.navbar {
+    background-color: #0d180c;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo h1 {
+    font-size: 1.5rem;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li {
+    display: inline;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #6dfca4;
+}
+
+
+.services{
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.services h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5fc00ae8;
+}
+
+.service-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service{
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+.service img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.service .btn{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 305px;
+}
+
+.footer {
+    background-color: #0d100d;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+}
