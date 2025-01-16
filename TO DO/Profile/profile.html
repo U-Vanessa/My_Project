@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Profile/profile.css">
+    <title>Document</title>
+</head>
+<body>
+        
+</head>
+<body>
+
+    <div class="registration-container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm" onsubmit="return validateForm()">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+                <option value="prefer_not_to_say">Prefer not to say</option>
+            </select>
+
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <div class="terms">
+                <input type="checkbox" id="terms" name="terms" required> 
+                <label for="terms">I agree to the terms and conditions</label>
+            </div>
+
+            <div class="btn-container">
+                <button type="submit" class="btn btn-confirm">Confirm</button>
+                <button type="button" class="btn btn-cancel" onclick="cancelForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="/Profile/profile.js"></script>
+</body>
+</html>
